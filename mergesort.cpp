@@ -20,6 +20,7 @@ void merge(int arr[],int start,int mid,int end){
      l_array[i]=arr[start+i];
  }
  
+ 
  for(int i=0;i<n2;i++){
      r_array[i]=arr[mid+i+1];
  }
