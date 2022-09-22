@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(./image/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.heading {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 32px;
+	color: #fff;
+}
+
+.form-body {
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+.lform {
+	width: 1210px;
+	height: 450px;
+	border: 1px solid rgba(118, 214, 243, 0.514);
+	background-color: rgba(255, 255, 255, 0.281);
+	box-shadow: 0 5px 22px 1.7px rgba(2, 233, 221, 0.562);
+	backdrop-filter: blur(3px);
+	padding-top: 10px;
+}
+
+.container {
+	width: 1100px;
+	height: 500px;
+	border: 1px solid rgba(118, 214, 243, 0.514);
+	background-color: rgba(255, 255, 255, 0.281);
+	box-shadow: 0 5px 22px 1.7px rgba(2, 233, 221, 0.562);
+	backdrop-filter: blur(3px);
+	margin-left: 35px;
+	margin-top: 60px;
+	overflow-y: scroll;
+	padding-left: 100px;
+	margin-bottom: 50px;
+}
+
+.list {
+
+	float: left !important;
+	width: 25% !important;
+	margin-bottom: 30px;
+	margin-left: 35px;
+	padding-left: 10px;
+	padding-top: 10px;
+	border: 2px solid white;
+	height: 180px;
+	margin-top: 10px;
+
+}
+.container::-webkit-scrollbar {
+    display: none;
+    overflow-y: scroll;
+}
+
+.box {
+	width: 1100px;
+	height: 500px;
+	margin-left: 35px;
+	margin-top: 60px;
+	/* overflow: hidden; */
+}
+
+.dis {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	justify-content: space-evenly;
+	margin-top: 20px;
+
+}
+
+
+.lform .user-box {
+	position: relative;
+}
+
+.lform .user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	margin-bottom: 30px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+}
+
+.lform .user-box label {
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	justify-content: space-evenly;
+
+}
+
+button {
+	/* margin-left: 45%; */
+	height: 50px;
+	width: 100px;
+	background-color: rgba(255, 255, 255, 0.473);
+	color: #fff;
+	font-size: 16px;
+	border-radius: 10px;
+	border-color: #fff;
+	box-shadow: 0 5px 22px 1.7px rgba(2, 233, 221, 0.562);
+	backdrop-filter: blur(3px);
+
+}
+
+
+button:hover {
+	transform: scale(1.1);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}

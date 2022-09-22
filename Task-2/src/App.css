@@ -1,0 +1,98 @@
+ .box {
+   margin-top: -10px;
+   margin-left: -10px;
+   margin-right: -8px;
+   height: 70px;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   background-color: rgba(26, 56, 191, 0.646);
+   border-left: 2px solid rgba(7, 91, 169, 0.893);
+   border-right: 2px solid rgb(26, 56, 191);
+   border-bottom: 2px solid rgb(117, 26, 191);
+ }
+
+ button {
+   color: white;
+   font-weight: 600;
+   font-size: 1.25rem;
+   margin-top: 10px;
+   height: 50px;
+   border-radius: 5px;
+   background-color: rgb(75, 133, 233);
+   display: inline-block;
+   margin-left: 50px;
+   border-top: 2px solid rgb(117, 26, 191);
+   border-left: 2px solid rgb(26, 56, 191);
+   border-right: 2px solid rgb(26, 56, 191);
+   border-bottom: 2px solid rgb(117, 26, 191);
+ }
+
+ .row {
+   height: 50px;
+   display: flex;
+ }
+
+ h2 {
+   margin-top: 15px;
+   padding-top: 0px;
+   margin-left: 40px;
+   text-align: center;
+   color: white;
+   
+ }
+
+ .loadinggif {
+   margin-top: 10%;
+   margin-left: 38%;
+ }
+
+ .card {
+   float: left !important;
+   width: 50% !important;
+ }
+
+ .users {
+
+   max-width: 200px;
+   margin: 10px 5px;
+   text-align: center;
+   font-family: 'Times New Roman';
+   padding: 15px;
+   background-color: white;
+   margin-left: 100px;
+   border-top: 2px solid rgb(26, 56, 191);
+   border-left: 2px solid rgb(117, 26, 191);
+   border-right: 2px solid rgb(117, 26, 191);
+   border-bottom: 2px solid rgb(26, 56, 191);
+   border-radius: 20px;
+   box-shadow: 1px 2px 9px rgba(108, 8, 249, 0.692);
+
+ }
+
+ img {
+   border-radius: 12px;
+   overflow-wrap: anywhere;
+ }
+
+ .email {
+   color: rgb(123, 3, 179);
+   font-size: 18px;
+   overflow-wrap: anywhere;
+ }
+
+ .name {
+   font-size: 25px;
+   color: rgb(50, 2, 171);
+   font-weight: bold;
+ }
+
+ @media only screen and (min-width: 1024px) {
+   .card {
+     float: left !important;
+     width: 33% !important;
+   }
+   button{
+    margin-left: 900px;
+   }
+
+ }
